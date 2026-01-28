@@ -5,9 +5,9 @@ header("Access-Control-Allow-Headers: Content-Type");
 
 // 1. DATABASE CONNECTION (VULNERABLE STYLE)
 $host = "localhost";
-$user = "root"; // Default XAMPP user
+$user = "root@localhost"; // Default XAMPP user
 $pass = "";     // Default XAMPP password
-$db   = "cyber_test_db";
+$db   = "Estates_app";
 
 $conn = new mysqli($host, $user, $pass, $db);
 
