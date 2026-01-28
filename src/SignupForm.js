@@ -35,7 +35,7 @@ const SignUpForm = () => {
     if (documentFile) data.append("document", documentFile);
 
     try {
-      const response = await fetch("http://your-ip-or-localhost/backend/FormApi.php", {
+      const response = await fetch("http://192.168.136.135:8000/backend/FormApi.php", {
         method: "POST",
         body: data,
       });
